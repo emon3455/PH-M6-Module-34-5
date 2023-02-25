@@ -30,11 +30,6 @@ const displayData=(data)=>{
 
 }
 
-document.getElementById("select").addEventListener("change",(event)=>{
-    const res = event.target.value;
-    console.log(res);
-})
-
 document.getElementById("select").addEventListener("click",(event)=>{
     const res = event.target.value;
     loadData(res);
